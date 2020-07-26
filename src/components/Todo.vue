@@ -13,8 +13,7 @@
                   <div class="col-md-12 mb-4">
                     <input @keyup.enter="addTodo()" v-model="userInput" type="text" id="subject" class="form-control" placeholder="Type and press enter">
                   </div>
-            </div>
-              <table class="table">
+                  <table class="table">
                 <thead>
                   <tr>
                     <th scope="col">Task</th>
@@ -28,6 +27,7 @@
                   </tr>
                 </tbody>
               </table>
+            </div>
           </div>
         </div>
       </div>
