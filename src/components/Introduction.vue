@@ -1,5 +1,6 @@
 1<template>
   <div class="hello">
+    <div class="container my-5 ">
     <div class="container my-5 z-depth-1 amber accent-4">
       <section class="dark-grey-text">
         <div class="row pr-lg-5">
@@ -19,7 +20,8 @@
           </div>
         </div>
       </section>
-    </div>
+    </div>  
+</div>
   </div>
 </template>
 

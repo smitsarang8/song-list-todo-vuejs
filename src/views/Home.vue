@@ -3,6 +3,7 @@
     <Introduction/>
     <Todo/>
     <Credits/>
+    <Footer/>
   </div>
 </template>
 
@@ -11,13 +12,15 @@
 import Todo from '@/components/Todo.vue'
 import Introduction from '@/components/Introduction.vue'
 import Credits from '@/components/Credits.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'Home',
   components: {
     Todo,
     Introduction,
-    Credits
+    Credits,
+    Footer
   }
 }
 </script>
